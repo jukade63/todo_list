@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +8,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(201, 217, 218);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.maxw {
+  max-width: 576px;
+}
+.bd-callout {
+  border-left-width: 0.25rem;
+}
+.bd-callout-warning {
+  border-left-color: #f9b115;
+}
+.bd-callout-success {
+  border-left-color: #2eb85c;
 }
